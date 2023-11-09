@@ -29,7 +29,7 @@ export default function App() {
         onPress={async ()=>{
           await Notifications.scheduleNotificationAsync({
             content: {
-              title: "week12Notif",
+              title: "week11Notif",
               body: "Here is your notification!",
             },
             trigger: {
